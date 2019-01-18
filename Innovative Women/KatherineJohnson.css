@@ -1,0 +1,155 @@
+/*
+* Victoria Corbo
+* January 18, 2019
+* Katherine Johnson
+*/
+
+/* The universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Add in a background-color, margin, border, width, font-family, text-aglign, font-size, and color. Width should be 100% of the page.*/
+body {
+    width: 100%;
+    background-color: #eff3f6;
+    margin: 15px auto;
+    border: 1px solid #90bed5;
+    font-family: "Trebuchet MS", "Gill Sans", sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    padding: 10px;
+}
+
+header {
+    border-bottom: 2px solid #90bed7;
+    background-color: #90bed5;
+    
+}
+
+#title {
+    text-align: center;
+    font-size: 350%
+}
+
+#profession {
+    text-align: center;
+    font-size: 150%
+}
+
+h3 {
+    padding: 5px;
+}
+
+/*Needs to be floated to the left. Have the width set in a percent because the web page needs to be liquid.*/
+#sidebarA {
+    width: 15%;
+    float: left;
+}
+
+#photo1 {
+    height: 200px;
+    border: 3px solid black;
+    margin-bottom: 5px
+}
+
+#facts {
+    text-align: center;
+    font-size: 180%
+}
+
+/*Use text-aglin: center; to center the words in both the asides.*/
+aside {
+    text-align: center;
+    padding: 5px;
+}
+
+/*Main needs to have the borders because it is my longest column. Border-left and border-right. Did not set a height because it auto adjusts to the words.*/
+main {
+    width: 61.4%;
+    float: left;
+    padding: 10px;
+    border-left: 2px solid #90bed7;
+    border-right: 2px solid #90bed7;
+}
+
+/*No float cent, so need to set margin-right and margin-leftto auto.*/
+#photo3 {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 3px solid black;
+}
+
+/*Want the text under the picture to be centered, so use text-align: center;.*/
+figcaption {
+    text-align: center;
+    padding: 3px;
+}
+
+#bio {
+    font-size: 200%
+}
+
+.indent {
+    text-indent: 25px
+}
+
+#sidebarB {
+    width: 20%;
+    float: right;
+}
+
+/*I did not like the way the bulletpoints look on the page, so I used list-style-type: none; to get rid of it.*/
+li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+#accomplishments {
+    font-size: 125%
+}
+
+#photo2 {
+    height: 250px;
+    border: 3px solid black;
+    margin-bottom: 5px;
+}
+
+/*Needs to be claered, so it does not wrap around the text. Also clear it because you need to see the border. Use claer: both;.*/
+footer {
+    clear: both;
+    border-top: 2px solid #90bed7;
+}
+
+#sources {
+    margin-left: 10px;
+}
+
+/*moved in all the links because they were toclose to the border. Use margin-left to do this.*/
+.margin {
+    margin-left: 20px;
+}
+
+#smaller {
+    float: right;
+    margin-right: 10px;
+    font-size: 75%;
+}
+
+/*Make the visted and link the same color. Make the color so you can see them.*/
+a:link, a:visited {
+    color: #006bb3;
+}
+
+/*Make the color bright when the person is activly using the link, or fousiing, or hovering over th link. Make the font bigger, too.*/
+a:active, a:focus, a:hover {
+    color: #33adff;
+    font-size: 18px;
+}
